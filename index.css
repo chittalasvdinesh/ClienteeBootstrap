@@ -1,0 +1,51 @@
+@font-face {
+    font-family: poppins-medium;
+    src: url(./poppins/Poppins-Medium.ttf);
+    
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(./poppins/Poppins-Light.ttf);
+    
+}
+
+
+.Clientee-section-heading, .certifications-section-heading{
+    font-family: poppins-medium;
+    font-size: 61px;
+    line-height: 81px;
+}
+
+.Clientee-section-text,.certifications-section-text{
+    font-family: poppins-light;
+    font-size: 22px;
+    line-height: 81px;
+}
+
+.item{
+    padding: 28px 29px;
+}
+
+.certifications-section-text{
+    line-height: 32px;
+}
+
+.bottom-part{
+    background-color: #F43535;
+    
+}
+
+.benefits-text{
+    font-family: poppins-light;
+    font-size: 41px;
+    line-height: 41px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .google-img{
+       display: none;
+    }
+  }
+
