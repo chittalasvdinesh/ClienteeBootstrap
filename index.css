@@ -43,9 +43,33 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 500px) {
+.arrow{
+    color: white;
+    
+}
+
+
+  @media (min-width: 320px) and (max-width: 1199px) {
+    .Clientee-section-heading, .certifications-section-heading{
+       font-size: 31px;
+       line-height: 31px;
+    }
+
+    .Clientee-section-text,.certifications-section-text{
+        font-size: 15px;
+        line-height: 31px;
+    }
+
+    .benefits-text{
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+    }
+
     .google-img{
-       display: none;
+        width: 300px;
+
     }
   }
+
 
